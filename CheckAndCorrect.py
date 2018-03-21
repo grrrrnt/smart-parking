@@ -1,3 +1,5 @@
+# CheckAndCorrect integrates functionality of both CheckValid and MissingDigit.
+
 import re
 
 pre = str()
