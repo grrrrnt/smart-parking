@@ -135,8 +135,7 @@ while True:
         for i in numList1:
             if (i % 5 == 0) and (i / 5 <= 9) and (i / 5 >= 0):
                 numCorrect = str(1000 * int(i / 5) + int(num))
-                if numCheck in numCorrect and len(numCorrect) - len(
-                        numDef) <= 1:  # To check for cases where num input started with 0
+                if numCheck in numCorrect and len(numCorrect) - len(numDef) <= 1:           # To check for cases where num input started with 0
                     print("The actual license plate may be: " + pre.upper() + numCorrect + suf.upper())
             else:
                 i = i + 1
