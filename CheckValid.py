@@ -43,7 +43,7 @@ print ("CHECK VALIDITY OF LICENSE PLATE\n")
 
 while True:
     prenumsuf = str()
-    prenumsuf = input("Enter wrong car plate: ")
+    prenumsuf = input("Enter car plate: ")
 
     try:
         num = (re.findall('\d+', prenumsuf))[0]
